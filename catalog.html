@@ -1,0 +1,369 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="shortcut icon" href="material/favicon.png" type="image/x-icon">
+    <title>Интернет-магазин наушников Music hall</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700,900&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/Mybootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://www.xiper.net/examples/js-plugins/ui/ui-slider/js/jquery.ui-slider.js"></script>
+    <script src="js/bootstrap.js"></script>
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-fixed">
+            <div class="container-fluid">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>КАТАЛОГ </strong>
+                    <span class="caret" style="color:red"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="catalog.html">Наушники и гарнитуры</a></li>
+                            <li><a href="#">MP3-плееры</a></li>
+                            <li><a href="#">Микрофоны</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#"><strong>БРЕНДЫ </strong>
+                    <span class="caret" style="color:red"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="brand1.html">Sony</a></li>
+                            <li><a href="brand2.html">Sennheiser</a></li>
+                            <li><a href="brand3.html">Philips</a></li>
+                            <li><a href="brand4.html">Beats</a></li>
+                            <li><a href="brand5.html">Apple</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="company.html">О компании</a></li>
+                    <li><a href="payment.html">Оплата и доставка</a></li>
+                    <li><a href="service.html">Обслуживание</a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#"><span class="glyphicon glyphicon-user"></span></a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div>
+                    <a href="index.html" title="Главная страница Music hall"><img src="material/logo.png" width="208" alt="Music hall"></a>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="col-md-2" style="margin-top:1em"><img src="material/velcom.png"></div>
+                <div class="col-md-10">
+                    <h4><a href="tel:80447777777"><strong>8 044 777 77 77</strong></a><br>
+                   <small>с 8:00 до 23:00 без выходных</small></h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <div class="col-md-2" style="margin-top:1em"><img src="material/mts.png"></div>
+                <div class="col-md-10">
+                    <h4><a href="tel:80297777777"><strong>8 029 777 77 77</strong></a><br>
+                        <small>с 8:00 до 23:00 без выходных</small></h4>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-3 col-md-3">
+                <form class="navbar-search pull-left">
+                    <input type="text" class="search-query" placeholder="Поиск">
+                </form>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+
+        <ul class="breadcrumb">
+            <li><a href="index.html">Главная</a> <span class="divider"></span></li>
+            <li><a href="index.html">Каталог</a> <span class="divider"></span></li>
+            <li class="active">Наушники и гарнитуры</li>
+        </ul>
+        <div class="row">
+            <div class="col-sx-3 col-md-3">
+                <h3>Наушники</h3>
+                <hr>
+                <div class="row">
+                    <div class="col-md-12">
+                        <h4>ПРОИЗВОДИТЕЛЬ</h4>
+                        <ul class="filter">
+                            <li>
+                                <input type="checkbox" name="brand"><a href="brand1.html"> Sony</a></li>
+                            <li>
+                                <input type="checkbox" name="brand"><a href="brand2.html"> Sennheiser</a></li>
+                            <li>
+                                <input type="checkbox" name="brand"><a href="brand3.html"> Philips</a></li>
+                            <li>
+                                <input type="checkbox" name="brand"><a href="brand4.html"> Beats</a></li>
+                            <li>
+                                <input type="checkbox" name="brand"><a href="brand5.html"> Apple</a></li>
+                        </ul>
+                        <hr>
+                        <h4>ТИП НАУШНИКОВ</h4>
+                        <ul class="filter">
+                            <li>
+                                <input type="checkbox" name="type"> Накладные</li>
+                            <li>
+                                <input type="checkbox" name="brand"> Вставные</li>
+                            <li>
+                                <input type="checkbox" name="brand"> Полноразмерные</li>
+                            <li>
+                                <input type="checkbox" name="brand"> Внутриканальные</li>
+
+                        </ul>
+                        <hr>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-sx-9 col-md-9" id="margin_top">
+
+                <div class="row">
+                    <div class="col-xs-12 col-ms-4 col-md-4">
+                        <div class="product">
+                            <div class="product-img">
+                                <a href="pages/description_Philips_SHE9050.html"><img src="material/PhilipsSHE9050.png" alt="Philips SHE9050"></a>
+                            </div>
+                            <p class="type">Гарнитура</p>
+                            <p class="product-title">
+                                <a href="#">Philips</a>
+                            </p>
+                            <p class="model">SHE9050</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="product-price-name">Цена</p>
+                                    <p class="product-price">$25</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-buy">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="product">
+                            <div class="product-img">
+                                <a href="pages/description_Sennheiser_HD_630VB.html"><img src="material/sennheiser-hd-630vb-1b.png" alt="Sennheiser HD 630 VB"></a>
+                            </div>
+                            <p class="type">Наушники</p>
+                            <p class="product-title">
+                                <a href="#">Sennheiser</a>
+                            </p>
+                            <p class="model">HD 630 VB</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="product-price-name">Цена</p>
+                                    <p class="product-price">$350</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-buy">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="product">
+                            <a href="pages/description_sony_MDR-XB450AP.html">
+                                <div class="product-img">
+                                    <img src="material/SonyMDR_XB450AP.png" alt="Sony MDR-XB450AP">
+                                </div>
+                                <p class="type">Наушники</p>
+                                <p class="product-title">
+                                    <a href="#">Sony</a>
+                                </p>
+                                <p class="model">MDR-XB450AP</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="product-price-name">Цена</p>
+                                        <p class="product-price">$60</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-buy">Купить</button>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <a href="pages/description_sony_MDR-XB450AP.html">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="pages/description_sony_MDR-XB450AP.html"><img src="material/BeatsStudio2White.png" alt="Beats Studio 2 White "></a>
+                                </div>
+                                <p class="type">Наушники</p>
+                                <p class="product-title">
+                                    <a href="pages/description_sony_MDR-XB450AP.html">Beats</a>
+                                </p>
+                                <p class="model">Studio 2 White</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="product-price-name">Цена</p>
+                                        <p class="product-price">$280</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-buy">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="product">
+                            <div class="product-img">
+                                <a href="pages/description_Sennheiser_HD_630VB.html"><img src="material/A4TechBloodyG500.png" alt="A4Tech Bloody G500"></a>
+                            </div>
+                            <p class="type">Наушники</p>
+                            <p class="product-title">
+                                <a href="#">A4Tech</a>
+                            </p>
+                            <p class="model">Bloody G500</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="product-price-name">Цена</p>
+                                    <p class="product-price">$26</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-buy">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <a href="pages/description_sony_MDR-XB450AP.html">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="pages/description_sony_MDR-XB450AP.html"><img src="material/RazerKrakenPro.png" alt="Razer Kraken Pro"></a>
+                                </div>
+                                <p class="type">Наушники</p>
+                                <p class="product-title">
+                                    <a href="pages/description_sony_MDR-XB450AP.html">Razer</a>
+                                </p>
+                                <p class="model">Kraken Pro</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="product-price-name">Цена</p>
+                                        <p class="product-price">$95</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-buy">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <a href="pages/description_apple_EarPods.html">
+                            <div class="product">
+                                <div class="product-img">
+                                    <a href="pages/description_apple_EarPods.html"><img src="material/AppleEarPods.png" alt="Apple EarPods"></a>
+                                </div>
+                                <p class="type">Гарнитура</p>
+                                <p class="product-title">
+                                    <a href="pages/description_apple_EarPods.html">Apple</a>
+                                </p>
+                                <p class="model">EarPods</p>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <p class="product-price-name">Цена</p>
+                                        <p class="product-price">$30</p>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <button type="button" class="btn btn-buy">Купить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 col-md-4">
+                        <div class="product">
+                            <div class="product-img">
+                                <a href="pages/description_Philips_SHE9050.html"><img src="material/SennheiserCX3.png" alt="Sennheiser CX 3.00"></a>
+                            </div>
+                            <p class="type">Гарнитура</p>
+                            <p class="product-title">
+                                <a href="pages/description_Philips_SHE9050.html">Sennheiser</a>
+                            </p>
+                            <p class="model">CX 3.00</p>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <p class="product-price-name">Цена</p>
+                                    <p class="product-price">$32</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <button type="button" class="btn btn-buy">Купить</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h4>Контакты</h4>
+                    <p><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i><a href="tel:+375447777777"><strong> +375 44 777 77 77</strong></a>
+                        <br><span class="mobOperator">Velcom</span></p>
+                    <p><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i><a href="tel:+375447777777"><strong> +375 29 777 77 77</strong></a>
+                        <br><span class="mobOperator">МТС</span></p>
+                    <p><i class="fa fa-phone-square fa-lg" aria-hidden="true"></i><a href="tel:+375447777777"><strong> +375 25 777 77 77</strong></a>
+                        <br><span class="mobOperator">life:)</span></p>
+                    <p><i class="fa fa-skype fa-lg" aria-hidden="true"></i><a href="skype:free.store"><strong>     free.store</strong></a>
+                        <br><span class="mobOperator">Skype</span></p>
+                </div>
+                <div class="col-md-3">
+                    <h4>Карта сайта</h4>
+                    <ul>
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="payment.html">Оплата и доставка</a></li>
+                        <li><a href="review.html">Обзоры</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Информация</h4>
+                    <ul>
+                        <li><a href="company.html">О компании</a></li>
+                        <li><a href="service.html">Обслуживание</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <script type="text/javascript">
+                        (function() {
+                            if (window.pluso)
+                                if (typeof window.pluso.start == "function") return;
+                            if (window.ifpluso == undefined) {
+                                window.ifpluso = 1;
+                                var d = document,
+                                    s = d.createElement('script'),
+                                    g = 'getElementsByTagName';
+                                s.type = 'text/javascript';
+                                s.charset = 'UTF-8';
+                                s.async = true;
+                                s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+                                var h = d[g]('body')[0];
+                                h.appendChild(s);
+                            }
+                        })();
+                    </script>
+                    <div class="pluso" data-background="transparent" data-options="big,square,line,horizontal,nocounter,theme=08" data-services="vkontakte,facebook,google"></div>
+                </div>
+            </div>
+        </div>
+        <p class="copyright"><img src="material/logo_footer.gif"> &copy; 2016 musichallshop.by Все права защищены</p>
+    </footer>
+
+</body>
+
+</html>
